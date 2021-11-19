@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Fleur+De+Leah&display=swap');
+body {
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 200%;
+    background:linear-gradient(80deg,#87cefa,#ff77cd)
+  }
+  .Aboutfestivals {
+    border: 1px solid rgb(255, 255, 255);
+    background-color:#Fff;
+    border-radius: 25px;
+    padding: 50px;
+    
+  }
+  .image1{
+    display:flex;
+    justify-content:center;
+    top:10%;
+  }
+  .image2{
+    display:flex;
+    float: left;
+  }
+  .image3{
+    display:flex;
+    float: right;
+  }
+  .Independent{
+    border: 1px solid rgb(255, 255, 255);
+    background-color:#Fff;
+    border-radius: 25px;
+    padding: 50px;
+  }
+  .Republic{
+    border: 1px solid rgb(255, 255, 255);
+    background-color:#Fff;
+    border-radius: 25px;
+    padding: 50px;
+  }
+  .GandhiJayanti{
+    border: 1px solid rgb(255, 255, 255);
+    background-color:#Fff;
+    border-radius: 25px;
+    padding: 50px;
+  }
+  .UpBox {
+    font-family: 'Asul', sans-serif;
+    border: 16px solid rgb(15, 12, 12);
+    background: rgb(255, 255, 255);
+    margin:0;
+    border-radius: 100px 100px 100px 100px;
+  }
+  .UpBox12 {
+    font-family: 'Asul', sans-serif;
+    border: 16px solid rgb(15, 12, 12);
+    background: rgb(255, 255, 255);
+    margin:0;
+    border-radius: 100px 100px 100px 100px;
+  }
+  .UpBox123 {
+    font-family: 'Asul', sans-serif;
+    border: 16px solid rgb(15, 12, 12);
+    background: rgb(255, 255, 255);
+    margin:0;
+    border-radius: 100px 100px 100px 100px;
+  }
+  .loader-wrapper {
+      position:absolute;
+    width: 100%;
+    height: 150%;
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  }
